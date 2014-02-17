@@ -1,5 +1,9 @@
 class Filereadgem
-    def self.read
-    puts "Hello world!"
+    def self.read(file="",str="")
+        finder = Finder.new(file,str)
+        finder.read
+    end
 end
-end
+
+require 'filereadgem/finder'
+

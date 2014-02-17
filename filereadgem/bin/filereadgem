@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+# so one can run as filereadgem filename stringToFind
+require 'filereadgem'
+puts Filereadgem.read(ARGV[0],ARGV[1])

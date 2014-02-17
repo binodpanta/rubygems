@@ -6,8 +6,10 @@ Gem::Specification.new do |s|
   s.description = "A simple file reading gem"
   s.authors     = ["Binod Pant"]
   s.email       = 'binod80@gmail.com'
-  s.files       = ["lib/filereadgem.rb"]
+  s.files       = ["lib/filereadgem.rb",
+                   "lib/filereadgem/finder.rb"]
   s.homepage    =
     'http://rubygems.org/gems/filereadgem'
   s.license       = 'MIT'
+  s.executables << 'filereadgem'
 end
